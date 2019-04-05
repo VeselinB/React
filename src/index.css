@@ -1,0 +1,357 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+body {
+ font-family: 'PT sans', sans-serif;
+ font-size: 16px;
+ max-width: 1300px;
+ margin-top: 0px ;
+ margin-bottom: 30px ;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.navigation{
+  
+    padding: 2%
+
+
+}
+
+.navigation p{
+    display: inline-block;
+    font-size: 22px;
+    width: 12%;
+    margin-left: 2%;
+
+}
+
+.navigation p span {
+    color: #0063B1
+}
+
+.navigation p span:hover {
+    color: #50b9e1
+}
+
+nav{
+    display: inline-block;
+   
+}
+
+.navigation{
+    background: rgb(233, 233, 245);
+   margin-bottom: 30px;
+   margin-top: 30px;
+   padding: 0 ;
+ padding: 0px;
+ position: fixed;
+ z-index: 100;
+ 
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.navigation > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(7) > ul:nth-child(1){
+    margin: 0 0 0 420px;
+}
+
+.button{
+      background: #0063B1;
+    border: 2px solid #0063B1;
+    color: white;
+    border-radius: 2px;
+   }
+
+   .button:hover{
+    background:transparent;
+    color: #50b9e1;
+    border: 1px solid #50b9e1;
+    cursor: pointer;
+   }
+li{
+    display: inline-block;  
+}
+nav li{
+    display: inline-block;
+    padding-right: 10px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px
+    
+}
+
+nav i:hover{
+    border-color: #50b9e1;
+}
+
+.navigation > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(5){
+    padding-right: 566PX
+}
+
+ul{
+    padding: 0;
+}
+
+a:hover{
+    color: #50b9e1;
+ 
+    cursor: pointer;
+}
+
+
+
+/*site-header*/
+
+.site-header{
+    background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url('https://media.mnn.com/assets/images/2017/02/lisa-prosha-leonberger.jpg.653x0_q80_crop-smart.jpg' ) no-repeat;
+    background-size: cover;
+margin-top: 10%;
+
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #root > div:nth-child(2){
+      position: relative;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  div  form  button {
+    width: 100%;
+    background-color: #50b9e1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  div  form  button:hover {
+    background-color: #3085a7;
+  }
+  
+ div  form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;  
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 150px;
+    position: relative;
+    
+  }
+.site-header h1{
+    font-size: 66px;
+    color: white;
+    width: 38%;
+    margin: 0;
+    padding: 200px 0 80px 100px;
+}
+
+.site-header button{
+    font-size: 26px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 0 100px 100px;
+
+}
+.camps > a:nth-child(3) > button:nth-child(1){
+    border:  2px solid #50b9e1;
+    color: #50b9e1;
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 18px;
+
+}
+.camps > a:nth-child(3) > button:nth-child(1):hover {
+    background: #50b9e1;
+    color: white;
+    cursor: pointer;
+}
+.site-header button:hover{
+    background: #50b9e1;
+    border: 2px solid #50b9e1;
+    cursor: pointer;
+}
+/*welcome*/
+.welcome{
+    color: #5a7c8a;
+    width: 60%;
+    margin: 0 auto;
+    text-align:  center;
+    padding: 20px 0;
+}
+
+h2{
+    text-align:  center;
+    font-family: 'PT SErif', serif;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+/* offerts */
+.offerts{
+font-family: 'PT SErif', serif;
+color: white;
+background: #50b9e1;
+padding: 20px 30px;
+margin-top: 126px;
+}
+.offerts img{
+width: 70px;
+
+}
+.offerts li{
+    width: 28%;
+    text-align: center;
+    padding: 20px 30px;
+}
+/* camps */
+.camps{
+    color: #5a7c8a;
+    padding: 20px 0;
+    margin: 7% auto;
+}
+
+.camps > p:nth-child(2){
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.camps img {
+    width: 400px;
+    height:  250px;
+}
+
+.camps li {
+    width: 400px;
+   
+}
+
+.camps li:not(:last-child){
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.camps p{
+    padding-bottom: 30px;
+}
+
+.more-info div {
+    display: inline-block;
+}
+
+.more-info div p,
+.more-info div h3{
+    margin: 0;
+    padding: 0;
+}
+
+.camps  div:nth-child(1){
+    width: 338px;
+  
+}
+
+.camps  div:nth-child(2){
+    color: white;
+    background-color:  #50b9e1;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.info{
+    border-bottom: 2px solid #5a7c8a;
+    padding-bottom: 10px;
+}
+
+.more-info button{
+    border:  2px solid #50b9e1;
+    color: #50b9e1;
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-right: 9px;
+
+}
+
+.more-info button:hover{
+    background: #50b9e1;
+    color: white;
+    cursor: pointer;
+ 
+}
+
+
+/* FOOTER */
+footer p,
+footer ul{
+    display: inline-block;
+}
+footer, footer a {
+background:  rgb(233, 233, 245);;
+color: #5a7c8a;
+}
+footer{
+    background: rgb(233, 233, 245);
+   margin-bottom: 30px;
+   margin-top: 30px;
+   padding: 0 ;
+ padding: 0px;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 43px -25px -28px  -24px
+}
+footer p{
+    width: 91%;
+}
+
+footer a i{
+    font-size: 25px;
+    padding: 0 4px;
+}
+
+
+
+
